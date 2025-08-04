@@ -23,4 +23,6 @@ print("Programa para Calcular Area e quantidade de Tinta \n")
 lar = int(input("Digite a Largura"))
 alt = int(input("Digite a Altura"))
 area = lar * alt
-qtdt = area/2 
+qtdt = area / 2
+print(f"essa é a area da parede {area}\n")
+print(f"você precisa de {qtdt} litros de tinta para pintar a parede")
